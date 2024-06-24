@@ -1,15 +1,25 @@
 *{
-    /* Ngatur biar di seluruh bagian html gaada gap */
+    /* Mengatur biar di seluruh bagian html*/
     margin: 0;
     padding: 0;
     /* End Penjelasan */
 
-    /* Menghilangkan Border pada Form dan Search Button agar menarik */
+    /* Menghilangkan Border pada Form dan Search */
     border: 0;
-    /* membuat bagian putih mengikuti form, dan sisanya mengikuti settings body */
+    /* membuat bagian putih mengikuti formy */
     box-sizing: border-box;
 }
 
+/* Pengaturan "Body" */
+body{
+/* Tengahin Kontennya  (Ini Settings Baku)*/
+    display: flex;
+    height: 100vh; /*vh adalah satuan ukuran layar*/
+    align-items: center;
+    justify-content: center;
+/* Background container */
+    background: #06283D;
+}
 /* Pengaturan seluruh bagian "Body" */
 body{
 /* Tengahin Kontennya  (Ini Settings Baku)*/
@@ -29,9 +39,8 @@ body{
 .container{
     position: relative;
     width: 400px;
-    height: 555px;
-    background: rgba(255, 255, 255, 1);
-    color: #ffffff00;
+    height: 105px;
+    background: #fff;
     padding: 28px 32px;
     overflow: hidden;
     border-radius: 18px;
@@ -144,8 +153,8 @@ body{
 }
 
 .weather-details .wind{
-    padding-left: 50%;
-    padding-right: 20px;
+    padding-left: 80%;
+    padding-right: 30px;
     justify-content: flex-end;
 }
 
@@ -221,3 +230,4 @@ body{
         opacity: 1;
     }
 }
+
